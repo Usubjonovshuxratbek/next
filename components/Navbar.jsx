@@ -11,8 +11,9 @@ export default function Navbar() {
             <li className={styles.item}>
               <div className={styles.right}>
                 <Link href='/' className={styles.logo}>
-                  <Image src="/myteam.png" width={159} height={40} alt='logo' />
+                  <Image src="/img/myteam.png" width={159} height={40} alt='logo' />
                 </Link>
+                <button className={styles.humburger}><Image src="/img/humburger.png" width={20} height={17} alt='humburger' /></button>
                 <Link href='/' className={styles.link}>home</Link>
                 <Link href='/About' className={styles.link}>about</Link>
               </div>

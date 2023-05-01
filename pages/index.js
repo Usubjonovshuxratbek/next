@@ -2,8 +2,11 @@ import Navbar from '../components/Navbar'
 import Head from 'next/head'
 import HomeHero from '@/components/HomeHero'
 import Footer from '../components/Footer'
+import HomeMain from '@/components/HomeMain'
+import HomeAsaid from '@/components/HomeAsaid'
+import Contact from '@/components/Contact'
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <Head>
@@ -15,6 +18,9 @@ export default function Home() {
       <div>
         <Navbar />
         <HomeHero />
+        <HomeMain />
+        <HomeAsaid />
+        <Contact />
         <Footer />
       </div>
     </>
